@@ -21,19 +21,7 @@
 html {
   font-size: 14px;
 }
-body {
-  font-family: 'Avenir-Book';
-  background-color: #d5f4e6;
-}
-h1 {
-  font-size: 3rem;
-}
-h3 {
-  font-size: 1.5rem;
-}
-h4 {
-  font-size: 1rem;
-}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -57,9 +45,9 @@ h4 {
 .navbar-header .navbar-brand {
   width: 20vw;
   color: #32acdc;
+  padding: 6px;
 }
 .navbar .container .nav-header-text {
-  font-weight: Bold;
   color: #32acdc;
 }
 .navbar .container .navbar-content-right {
@@ -99,7 +87,6 @@ h4 {
 .main-container {
   overflow-x: hidden;
   overflow-y: hidden;
-  margin-top: 6rem;
 }
 .main-container .margin-5 {
   margin-top: 5%;
@@ -116,14 +103,11 @@ h4 {
 .main-container .first-section .request-img {
   border: 1px solid #ffffff;
   border-radius: 3px;
+  width: 300px;
 }
 .main-container .first-section .main-heading-text {
-  font-family: 'Gotham Pro Bold';
-  margin-top: 3rem;
-  font-size: 40px;
-  line-height: 52px;
-  font-weight: Bold;
 }
+
 .main-container .first-section .paragraph-text {
   font-family: 'Gotham Pro Black';
   margin-top: 3rem;

@@ -33,19 +33,6 @@
 html {
   font-size: 14px;
 }
-body {
-  font-family: 'Avenir-Book';
-  background-color: #FFFFFF;
-}
-h1 {
-  font-size: 3rem;
-}
-h3 {
-  font-size: 1.5rem;
-}
-h4 {
-  font-size: 1rem;
-}
 .uppercase {
   text-transform: uppercase;
 }
@@ -57,24 +44,15 @@ h4 {
 }
 body {
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 .no-container {
   margin: 0px;
   padding: 0px;
 }
 .content {
-  position: absolute;
-  top: 7vh;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
+  margin-top: 7vh;
   height: calc(93vh);
-  background-color: #d5f4e6;
-  margin-top: 1.8%;
-  padding-bottom: 3%;
 }
 .undecorated-link:hover {
   text-decoration: none;
@@ -119,7 +97,6 @@ a:hover .header-profile-image {
   /*background-color: #FFFFFF;*/
 }
 .navbar .nav-header-text {
-  font-weight: Bold;
   color: #32acdc;
 }
 .navbar .dropdown-menu {
@@ -186,10 +163,9 @@ a:hover .header-profile-image {
           flex-direction: column;
 }
 .navbar-brand > img {
-  position: fixed;
-  top: 6px;
-  left: 7px;
+  display: inline-block;
   width: 3rem;
+  margin-right: 0.5rem;
 }
 .bg-color {
   background-color: #EFF0F2;
