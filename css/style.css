@@ -1,4 +1,25 @@
-// Typography
+@font-face {
+  font-family: 'Gotham Pro Black';
+  src: url('css/fonts/GothaProBlack.otf') format('otf');
+}
+@font-face {
+  font-family: 'Gotham Pro Bold';
+  src: url('css/fonts/GothaProBold.otf') format('otf');
+}
+@font-face {
+  font-family: 'Gotham Pro Medium';
+  src: url('css/fonts/GothaProMed.otf') format('otf');
+}
+@font-face {
+  font-family: 'OpenSans Regular';
+  src: url('css/fonts/OpenSans-Regular.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'OpenSans SemiBold';
+  src: url('css/fonts/OpenSans-Semibold.ttf') format('ttf');
+}
+
+ /*Typography*/
 h1 {
   font-family: 'Gotham Pro Black';
   font-size: 40px;
@@ -50,24 +71,80 @@ p.small {
   line-height: 20px;
 }
 
-// Buttons
+/*Buttons*/
 .btn-blue {
-
+  height: 52px;
+  width: 320px;
+  border-radius: 5px;
+  margin-right: 8px;
+  border: 0;
+  background: #32acdc;
+  box-shadow: 1px 1px 2px 1px #00aaff;
+  background: linear-gradient(,#38dbff, #32acdc);
 }
 .btn-blue:hover {
-
+  height: 52px;
+  width: 320px;
+  border-radius: 5px;
+  margin-right: 8px;
+  border: 0;
+  box-shadow: 1px 1px 2px 1px #00aaff;
+  background: #38dbff;
+  background: linear-gradient(#32acdc, #38dbff);
 }
 
 .btn-green {
-
+  height: 52px;
+  width: 200px;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 1px 1px 2px 1px #00aaff;
+  background: #4be539;
+  background: linear-gradient(#4be539, #0abf00);
 }
 .btn-green:hover {
-
+  height: 52px;
+  width: 200px;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 1px 1px 2px 1px #00aaff;
+  background: #4be539;
+  background: linear-gradient(#0abf00, #4be539);
 }
 
 .btn-white {
-
+  height: 38px;
+  width: 213px;
+  border-radius: 5px;
+  border: 0;
+  background: #ffffff;
+  box-shadow: 1px 1px 2px 1px #ccc;
+  color: #32acdc;
+  font-family: 'Gotham Pro Bold';
+  font-size: 16px;
+  text-align: center !important;
+}
+.btn-white:hover {
+  color: #ffffff;
+  font-family: 'Gotham Pro Bold';
+  font-size: 16px;
+  text-align: center !important;
+  background: linear-gradient(#38dbff, #32acdc);
 }
 
  
-// Cards
+ /*Cards*/
+.card-box {
+  width: 350px;
+  height: 500px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 20px #ccc;
+}
+.card-box:hover {
+  width: 350px;
+  height: 500px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 20px #00aaff;
+}
