@@ -33,6 +33,7 @@ html {
 }
 .navbar {
   /*background-color: #FFFFFF;*/
+  margin-bottom: 0;
 }
 .navbar .container .navbar-centered {
   display: -webkit-box;
@@ -80,6 +81,7 @@ html {
 }
 .main-container .main-heading-text {
     text-align: center;
+    margin-top: 7.5rem;
 }
 .main-container .first-section .paragraph-text {
   margin-top: 3%;
@@ -90,17 +92,10 @@ html {
   line-height: 26px;
 }
 .main-container .down-direction-arrow {
-  color: #32acdc;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
+}
+.main-container .down-direction-arrow img {
+  width: 2rem;
 }
 .main-container .first-section .button-group {
   margin-top: 6%;
