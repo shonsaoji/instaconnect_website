@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'Gotham Pro Black';
-  src: url('css/fonts/GothaProBlack.otf') format('otf');
+  src: url('css/fonts/GothaProBlack.otf') format('opentype');
 }
 @font-face {
   font-family: 'Gotham Pro Bold';
-  src: url('css/fonts/GothaProBold.otf') format('otf');
+  src: url('fonts/GothaProBold.otf') format('opentype');
 }
 @font-face {
   font-family: 'Gotham Pro Medium';
-  src: url('css/fonts/GothaProMed.otf') format('otf');
+  src: url('fonts/GothaProMed.otf') format('opentype');
 }
 @font-face {
   font-family: 'OpenSans Regular';
-  src: url('css/fonts/OpenSans-Regular.ttf') format('ttf');
+  src: url('fonts/OpenSans-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'OpenSans SemiBold';
-  src: url('css/fonts/OpenSans-Semibold.ttf') format('ttf');
+  src: url('fonts/OpenSans-Semibold.ttf') format('truetype');
 }
 html {
   font-size: 14px;
@@ -49,6 +49,7 @@ html {
 }
 .navbar .container .nav-header-text {
   color: #32acdc;
+  font-family: 'OpenSans SemiBold';
 }
 .navbar .container .navbar-content-right {
   width: 34vw;
@@ -70,12 +71,6 @@ html {
 .main-container .margin-5 {
   margin-top: 5%;
 }
-.main-container .heading-text {
-  margin-top: 5%;
-  font-family: 'Gotham Pro Bold';
-  font-size: 29px;
-  line-height: 24px;
-}
 .main-container .full-height {
   height: 100%;
 }
@@ -83,18 +78,14 @@ html {
   
   width: 300px;
 }
-
-.main-container .first-section .paragraph-text {
-  font-family: 'Gotham Pro Black';
-  margin-top: 3rem;
-  font-size: 22px;
-  line-height: 35px;
+.main-container .main-heading-text {
+    text-align: center;
 }
-.main-container .first-section .button-group {
-  margin-top: 3rem;
+.main-container .first-section .paragraph-text {
+  margin-top: 3%;
 }
 .main-container .first-section .button-group .btn-text {
-  font-family: 'Gotham Pro Black';
+  font-family: 'Gotham Pro Bold';
   font-size: 16px;
   line-height: 26px;
 }
@@ -110,6 +101,9 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.main-container .first-section .button-group {
+  margin-top: 6%;
 }
 .main-container .howItWork-section .horizontal-centered-column {
   display: -webkit-box;

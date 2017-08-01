@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'Gotham Pro Black';
-  src: url('css/fonts/GothaProBlack.otf') format('otf');
+  src: url('fonts/GothaProBlack.otf') format('opentype');
 }
 @font-face {
   font-family: 'Gotham Pro Bold';
-  src: url('css/fonts/GothaProBold.otf') format('otf');
+  src: url('fonts/GothaProBold.otf') format('opentype');
 }
 @font-face {
   font-family: 'Gotham Pro Medium';
-  src: url('css/fonts/GothaProMed.otf') format('otf');
+  src: url('fonts/GothaProMed.otf') format('opentype');
 }
 @font-face {
   font-family: 'OpenSans Regular';
-  src: url('css/fonts/OpenSans-Regular.ttf') format('ttf');
+  src: url('fonts/OpenSans-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'OpenSans SemiBold';
-  src: url('css/fonts/OpenSans-Semibold.ttf') format('ttf');
+  src: url('fonts/OpenSans-Semibold.ttf') format('truetype');
 }
 
  /*Typography*/
@@ -46,12 +46,13 @@ h5 {
   line-height: 20px;
 }
 p.big {
-  font-family: 'Open Sans Regular';
+  font-family: 'OpenSans Regular';
   font-size: 22px;
   line-height: 35px;
+  color: #757575;
 }
 p.normal {
-  font-family: 'Open Sans Regular';
+  font-family: 'OpenSans Regular';
   font-size: 16px;
   line-height: 30px;
 }
@@ -66,7 +67,7 @@ p.small {
   line-height: 22px;
 }
 .menu-item {
-  font-family: 'Open Sans Semibold';
+  font-family: 'OpenSans Semibold';
   font-size: 16px;
   line-height: 20px;
 }
@@ -74,62 +75,64 @@ p.small {
 /*Buttons*/
 .btn-blue {
   height: 52px;
-  width: 320px;
+  width: 371px;
   border-radius: 5px;
   margin-right: 8px;
   border: 0;
   background: #32acdc;
-  box-shadow: 1px 1px 2px 1px #00aaff;
+  box-shadow: 1px 1px 2px 1px #ccc;
   background: linear-gradient(,#38dbff, #32acdc);
 }
 .btn-blue:hover {
   height: 52px;
-  width: 320px;
+  width: 371px;
   border-radius: 5px;
   margin-right: 8px;
   border: 0;
-  box-shadow: 1px 1px 2px 1px #00aaff;
+  box-shadow: 1px 1px 2px 1px #ccc;
   background: #38dbff;
   background: linear-gradient(#32acdc, #38dbff);
 }
 
 .btn-green {
   height: 52px;
-  width: 200px;
+  width: 213px;
   border-radius: 5px;
   border: 0;
-  box-shadow: 1px 1px 2px 1px #00aaff;
+  margin-left: 2%;
+  box-shadow: 1px 1px 2px 1px #ccc;
   background: #4be539;
   background: linear-gradient(#4be539, #0abf00);
 }
 .btn-green:hover {
   height: 52px;
-  width: 200px;
+  width: 213px;
   border-radius: 5px;
   border: 0;
-  box-shadow: 1px 1px 2px 1px #00aaff;
+  margin-left: 2%;
+  box-shadow: 1px 1px 2px 1px #ccc;
   background: #4be539;
   background: linear-gradient(#0abf00, #4be539);
 }
 
 .btn-white {
   height: 38px;
-  width: 213px;
+  width: 214px;
   border-radius: 5px;
   border: 0;
   background: #ffffff;
   box-shadow: 1px 1px 2px 1px #ccc;
   color: #32acdc;
   font-family: 'Gotham Pro Bold';
-  font-size: 16px;
-  text-align: center !important;
+  font-size: 1rem;
+  opacity: 15%;
 }
 .btn-white:hover {
   color: #ffffff;
   font-family: 'Gotham Pro Bold';
-  font-size: 16px;
-  text-align: center !important;
+  font-size: 1rem;
   background: linear-gradient(#38dbff, #32acdc);
+  opacity: 25%;
 }
 
  
