@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'Gotham Pro Black';
-  src: url('css/fonts/GothaProBlack.otf') format('otf');
+  src: url('css/fonts/GothaProBlack.otf') format('opentype');
 }
 @font-face {
   font-family: 'Gotham Pro Bold';
-  src: url('css/fonts/GothaProBold.otf') format('otf');
+  src: url('fonts/GothaProBold.otf') format('opentype');
 }
 @font-face {
   font-family: 'Gotham Pro Medium';
-  src: url('css/fonts/GothaProMed.otf') format('otf');
+  src: url('fonts/GothaProMed.otf') format('opentype');
 }
 @font-face {
   font-family: 'OpenSans Regular';
-  src: url('css/fonts/OpenSans-Regular.ttf') format('ttf');
+  src: url('fonts/OpenSans-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'OpenSans SemiBold';
-  src: url('css/fonts/OpenSans-Semibold.ttf') format('ttf');
+  src: url('fonts/OpenSans-Semibold.ttf') format('truetype');
 }
 html {
   font-size: 14px;
@@ -49,6 +49,7 @@ html {
 }
 .navbar .container .nav-header-text {
   color: #32acdc;
+  font-family: 'OpenSans SemiBold';
 }
 .navbar .container .navbar-content-right {
   width: 34vw;
@@ -63,27 +64,6 @@ html {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-.navbar .container .navbar-header-right .enter-code-btn {
-  height: 38px;
-  width: 213px;
-  border-radius: 5px;
-  border: 0;
-  background: #ffffff;
-  box-shadow: 1px 1px 2px 1px #ccc;
-}
-.navbar .container .navbar-header-right .enter-code-btn-text {
-  color: #32acdc;
-  font-family: 'Gotham Pro Bold';
-  font-size: 16px;
-  text-align: center !important;
-}
-.navbar .container .navbar-header-right .enter-code-btn-text:hover {
-  color: #ffffff;
-  font-family: 'Gotham Pro Bold';
-  font-size: 16px;
-  text-align: center !important;
-  background: #32acdc;
-}
 .main-container {
   overflow-x: hidden;
   overflow-y: hidden;
@@ -91,79 +71,26 @@ html {
 .main-container .margin-5 {
   margin-top: 5%;
 }
-.main-container .heading-text {
-  margin-top: 5%;
-  font-family: 'Gotham Pro Black';
-  font-size: 29px;
-  line-height: 24px;
-}
 .main-container .full-height {
   height: 100%;
 }
 .main-container .first-section .request-img {
-  border: 1px solid #ffffff;
-  border-radius: 3px;
+  
   width: 300px;
 }
-.main-container .first-section .main-heading-text {
+.main-container .main-heading-text {
+    text-align: center;
 }
-
 .main-container .first-section .paragraph-text {
-  font-family: 'Gotham Pro Black';
-  margin-top: 3rem;
-  font-size: 22px;
-  line-height: 35px;
-}
-.main-container .first-section .button-group {
-  margin-top: 3rem;
-}
-.main-container .first-section .button-group .code-btn {
-  height: 52px;
-  width: 320px;
-  border-radius: 5px;
-  margin-right: 8px;
-  border: 0;
-  background: #32acdc;
-  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25);
-
-}
-.main-container .first-section .button-group .code-btn:hover {
-  height: 52px;
-  width: 320px;
-  border-radius: 5px;
-  margin-right: 8px;
-  border: 0;
-  background-image: linear-gradient(#32acdc, #38dbff);
-  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.35);
-
-
+  margin-top: 3%;
 }
 .main-container .first-section .button-group .btn-text {
-  font-family: 'Gotham Pro Black';
+  font-family: 'Gotham Pro Bold';
   font-size: 16px;
   line-height: 26px;
 }
-.main-container .first-section .button-group .icon-right {
-  margin-left: 5px;
-}
-.main-container .first-section .button-group .signUp-btn {
-  height: 52px;
-  width: 200px;
-  border-radius: 5px;
-  border: 0;
-  background: #0abf00;
-  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25);
-}
-.main-container .first-section .button-group .signUp-btn:hover {
-  height: 52px;
-  width: 200px;
-  border-radius: 5px;
-  border: 0;
-  background-image: linear-gradient(#0abf00, #4be539);
-  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.35);
-
-}
 .main-container .down-direction-arrow {
+  color: #32acdc;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,6 +101,9 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.main-container .first-section .button-group {
+  margin-top: 6%;
 }
 .main-container .howItWork-section .horizontal-centered-column {
   display: -webkit-box;
@@ -274,18 +204,19 @@ html {
 .main-container .preview-section .message-box .qr-image {
   height: 25vh;
   width: auto;
+  position: absolute;
+  bottom: 9rem;
 }
 .main-container .preview-section .message-box .logo-image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    display: flex;
+    align-self: center;
+    height: 10vh;
+    width: auto;
+}
+.main-container .preview-section .message-box .app-link {
+  position: absolute;
+  bottom: 6rem;
+  padding-left: 3%;
 }
 .main-container .preview-section .print-text {
   font-family: 'OpenSans Regular';
@@ -300,32 +231,18 @@ html {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.main-container .useCases-section .case-box-container .case-box {
-  width: 350px;
-  height: 500px;
-  border-radius: 5px;
-  background-color: #FFFFFF;
-  box-shadow: 0 4px 20px #ccc;
-}
-.main-container .useCases-section .case-box-container .case-box:hover {
-  width: 350px;
-  height: 500px;
-  border-radius: 5px;
-  background-color: #FFFFFF;
-  box-shadow: 0 4px 20px #00aaff;
-}
-.main-container .useCases-section .case-box-container .case-box .case-image {
+.main-container .useCases-section .case-box-container .case-image {
   background-image: url("../img/download (3).jpg");
   border-radius: 5px;
   height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.main-container .useCases-section .case-box-container .case-box .row > p {
+.main-container .useCases-section .case-box-container .row > p {
   font-size: 14px;
   line-height: 24px;
 }
-.main-container .useCases-section .case-box-container .case-box .case-btn {
+.main-container .useCases-section .case-box-container .case-btn {
     margin-top: 5%;
     height: 45px;
     width: 200px;
@@ -334,7 +251,7 @@ html {
     border: 1px solid;
     color: #32acdc;
 }
-.main-container .useCases-section .case-box-container .case-box .case-btn:hover {
+.main-container .useCases-section .case-box-container .case-btn:hover {
   margin-top: 5%;
   height: 45px;
   width: 200px;
@@ -366,9 +283,14 @@ html {
   width: 368px;
   border-radius: 5px;
 }
-.main-container .requirement-section .img-overlay {
-  margin-left: -4rem;
-  margin-top:  4rem;
+.main-container .requirement-section .img-overlay-left {
+    margin-top: 4rem;
+    margin-right: -2rem;
+    z-index: 1;
+}
+.main-container .requirement-section .img-overlay-right {
+    margin-top: 4rem;
+    margin-left: -2rem;
 }
 .main-container .benifits-section .user-image {
   height: 400px;
@@ -391,5 +313,25 @@ html {
 }
 .main-container .benifits-section .benfit-list-text {
   font-family: 'OpenSans Regular';
-  margin-bottom: 2%;
+  padding-bottom: 5%;
+}
+.main-container .benifits-section li {
+ list-style: none;
+}
+.main-container .benifits-section li::before {
+  content: "•  ";
+  color: #32acdc;
+  padding-right: 2%;
+}
+.main-container .central-border {
+  display: flex;
+  width: 7%;
+  height: 5vh;
+  margin: 0px auto;
+  border-bottom: 2px solid #32acdc;
+}
+footer {
+  height: 10vh;
+  background-color: #303640;
+  color: #ffffff;
 }
