@@ -123,9 +123,10 @@ html {
   font-size: 20px;
   line-height: 20px;
   text-align: center;
+  padding-top: 4%;
 }
 .main-container .howItWork-section .step-subHeading-text {
-  font-family: 'OpenSans Regular';
+  font-family: 'OpenSans SemiBold';
   font-size: 20px;
   line-height: 20px;
   text-align: center;
@@ -134,6 +135,7 @@ html {
   font-family: 'OpenSans Regular';
   font-size: 14px;
   line-height: 24px;
+  color: #757575;
 }
 .main-container .howItWork-section .step-box-container {
   display: -webkit-box;
@@ -149,32 +151,32 @@ html {
 .main-container .howItWork-section .step-box-container .margin-right-2 {
   margin-right: 2%;
 }
-.main-container .howItWork-section .step-box-container .step-container {
-  width: 245px;
-  height: 300px;
+.main-container .howItWork-section .step-box-container .step-box {
+  width: 310px;
+  height: 331px;
   border-radius: 5px;
   
 }
-.main-container .howItWork-section .step-box-container .step-container:hover {
-  width: 245px;
-  height: 300px;
+.main-container .howItWork-section .step-box-container .step-box:hover {
+  width: 310px;
+  height: 331px;
   border-radius: 5px;
   background-color: #FFFFFF;
   box-shadow: 0 5px 20px #ccc;
   
 }
-.main-container .howItWork-section .step-box-container .step-container:hover .step-btn {
+.main-container .howItWork-section .step-box-container .step-box:hover .step-btn {
    display: block;
   }
-.main-container .howItWork-section .step-box-container .step-container .sign-up-icon {
+.main-container .howItWork-section .step-box-container .step-box .sign-up-icon {
   font-size: xx-large;
   color: #32acdc;
 }
-.main-container .howItWork-section .step-box-container .step-container .row > p {
+.main-container .howItWork-section .step-box-container .step-box .row > p {
   font-size: 14px;
   line-height: 24px;
 }
-.main-container .howItWork-section .step-box-container .step-container .step-btn {
+.main-container .howItWork-section .step-box-container .step-box .step-btn {
   display: none;
   margin-top: 5%;
   height: 45px;
@@ -184,7 +186,7 @@ html {
   border: 0;
   color: #ffffff;
 }
-.main-container .howItWork-section .step-box-container .step-container .step-btn:hover {
+.main-container .howItWork-section .step-box-container .step-box .step-btn:hover {
   margin-top: 5%;
   height: 45px;
   width: 165px;
