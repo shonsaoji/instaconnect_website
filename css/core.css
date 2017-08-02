@@ -20,11 +20,33 @@ body {
   background: #f6f6f6;
   height: calc(100vh - 70px);
 }
+.content.second-section {
+  background: #ffffff;
+  height: 100vh;
+}
 .content.third-section {
     margin-top: 0;
     height: 100vh;
     background: radial-gradient(#FFFFFF, #EAF7FD);
     padding: 3rem;
+}
+.content.fourth-section {
+  height: 100vh;
+  background: #ffffff;
+}
+.content.fifth-section {
+  height: 100vh;
+  background: #ffffff;
+}
+.content.sixth-section {
+  height: 100vh;
+  background: #ffffff;
+}
+.content.seventh-section {
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 .undecorated-link:hover {
   text-decoration: none;

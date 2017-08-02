@@ -21,7 +21,7 @@
 
  /*Typography*/
 h1 {
-  font-family: 'Gotham Pro Bold';
+  font-family: 'Gotham Pro Black';
   font-size: 40px;
   line-height: 52px;
 }
@@ -48,18 +48,21 @@ h5 {
 p.big {
   font-family: 'OpenSans Regular';
   font-size: 22px;
-  line-height: 35px;
-  color: #757575;
+  line-height: 24px;
+  color: #4c5666;
 }
 p.normal {
   font-family: 'OpenSans Regular';
   font-size: 16px;
   line-height: 30px;
+  color: #757575;
+  margin: 0;
 }
 p.card {
   font-family: 'Gotham Pro Regular';
   font-size: 14px;
   line-height: 24px;
+  color: #4c5666;
 }
 p.small {
   font-family: 'Gotham Pro Medium';
@@ -138,16 +141,16 @@ p.small {
  
  /*Cards*/
 .card-box {
-  width: 350px;
-  height: 500px;
+  width: 25vw;
+  height: 70vh;
   border-radius: 5px;
   background-color: #FFFFFF;
-  box-shadow: 0 4px 20px #ccc;
+  box-shadow: 0 4px 20px rgba(0, 170, 255, 0.15);
 }
 .card-box:hover {
-  width: 350px;
-  height: 500px;
+  width: 25vw;
+  height: 70vh;
   border-radius: 5px;
   background-color: #FFFFFF;
-  box-shadow: 0 4px 20px #00aaff;
+  box-shadow: 0 4px 20px rgba(0, 170, 255, 0.25);
 }

@@ -106,7 +106,7 @@
   font-family: 'OpenSans Regular';
   font-size: 14px;
   line-height: 24px;
-  color: #757575;
+  color: #4c5666;
 }
 .main-container .howItWork-section .step-box-container {
   display: -webkit-box;
@@ -170,6 +170,7 @@
 .main-container .preview-section .message-box {
   background-color: pink;
   height: 378px;
+  width: 914px;
   border-radius: 5px;
   background-color: #FFFFFF;
   box-shadow: 0 5px 20px #ccc;
@@ -239,18 +240,6 @@
   width: 70px;
   margin-bottom: 5%;
 }
-.main-container .requirement-section .text-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
 .main-container .requirement-section .customers-img {
   height: 280px;
   width: 368px;
@@ -284,17 +273,28 @@
   display: flex;
   align-items: flex-start;
 }
+.main-container .benifits-section .no-padding {
+  padding: 0;
+}
 .main-container .benifits-section .benfit-list-text {
-  font-family: 'OpenSans Regular';
+  font-family: 'OpenSans SemiBold';
   padding-bottom: 5%;
+  color: #4c5666;
+  font-size: 16px;
+  line-height: 20px;
+  width: 40vw;
 }
 .main-container .benifits-section li {
  list-style: none;
 }
 .main-container .benifits-section li::before {
-  content: "•  ";
+  content: "\2022";
+  font-size: 1.5rem;
   color: #32acdc;
-  padding-right: 2%;
+  margin-top: 2%;
+  padding-right: 3%;
+  text-align: center;
+
 }
 .main-container .central-border {
   display: flex;
@@ -307,4 +307,5 @@ footer {
   height: 10vh;
   background-color: #303640;
   color: #ffffff;
+  font-family: 'Gotham Pro Bold';
 }
