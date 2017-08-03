@@ -44,6 +44,7 @@
 .main-container {
   overflow-x: hidden;
   overflow-y: hidden;
+
 }
 .main-container .margin-5 {
   margin-top: 5%;
@@ -139,9 +140,8 @@
 .main-container .howItWork-section .step-box-container .step-box:hover .step-btn {
    display: block;
   }
-.main-container .howItWork-section .step-box-container .step-box .sign-up-icon {
-  font-size: xx-large;
-  color: #32acdc;
+.main-container .howItWork-section .step-box-container .step-box .step-image {
+  height: 5vh;
 }
 .main-container .howItWork-section .step-box-container .step-box .row > p {
   font-size: 14px;
@@ -169,17 +169,31 @@
 }
 .main-container .preview-section .message-box {
   background-color: pink;
-  height: 378px;
-  width: 914px;
+  /*height: 378px;*/
+  height: 50vh;
+  width: 85%;
+  /*width: 914px;*/
   border-radius: 5px;
   background-color: #FFFFFF;
   box-shadow: 0 5px 20px #ccc;
 }
+.main-container .preview-section .message-box .qr-image-container {
+  height: 74% !important;
+  display: flex;
+  align-items: flex-end;
+}
+.main-container .preview-section .message-box .app-link {
+  height: 30% !important;
+}
 .main-container .preview-section .message-box .qr-image {
   height: 25vh;
-  width: auto;
-  position: absolute;
-  bottom: 9rem;
+  margin-left: 2%;
+}
+.main-container .preview-section .message-box .row {
+  height: 32.5%;
+}
+.main-container .preview-section .message-box .logo-container {
+  width: 40%;
 }
 .main-container .preview-section .message-box .logo-image {
     display: flex;
@@ -187,15 +201,19 @@
     height: 10vh;
     width: auto;
 }
-.main-container .preview-section .message-box .app-link {
-  position: absolute;
-  bottom: 6rem;
-  padding-left: 3%;
+.main-container .preview-section .message-box .message-box-image {
+  height: 7vh;
+  width: auto;
+  margin-bottom: 3%;
+}
+.main-container .preview-section .message-box .paragraph-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
 }
 .main-container .preview-section .print-text {
-  font-family: 'OpenSans Regular';
-  font-size: 20px;
-  line-height: 32px;
+  height: 15vh;
 }
 .main-container .useCases-section .case-box-container {
   display: -webkit-box;
@@ -206,12 +224,22 @@
           justify-content: space-between;
 }
 .main-container .useCases-section .case-box-container .case-image {
-  background-image: url("../img/download (3).jpg");
   border-radius: 5px;
-  height: 200px;
+  height: 32vh;
+  width: 25vw;
   background-size: cover;
   background-repeat: no-repeat;
 }
+.main-container .useCases-section .case-box-container .case-image-1 {
+  background-image: url("../img/image.png");
+}
+.main-container .useCases-section .case-box-container .case-image-2 {
+  background-image: url("../img/image 2.png");
+}
+.main-container .useCases-section .case-box-container .case-image-3 {
+  background-image: url("../img/image 3.png");
+}
+
 .main-container .useCases-section .case-box-container .row > p {
   font-size: 14px;
   line-height: 24px;
@@ -241,8 +269,8 @@
   margin-bottom: 5%;
 }
 .main-container .requirement-section .customers-img {
-  height: 280px;
-  width: 368px;
+  height: 39vh;
+  width: 28vw;
   border-radius: 5px;
 }
 .main-container .requirement-section .img-overlay-left {
@@ -254,8 +282,21 @@
     margin-top: 4rem;
     margin-left: -2rem;
 }
+.main-container .requirement-section .chat-image {
+  height: 7vh;
+}
+.main-container .requirement-section .chat-image-green {
+  height: 7vh;
+  filter: saturate(3);
+}
+.main-container .benifits-section {
+  height: 80vh;
+}
 .main-container .benifits-section .user-image {
   height: 400px;
+}
+.main-container .benifits-section .li-mainContainer {
+  height: 78%;
 }
 .main-container .benifits-section .li-container {
   display: -webkit-box;
@@ -283,6 +324,8 @@
   font-size: 16px;
   line-height: 20px;
   width: 40vw;
+  display: flex;
+  align-items: flex-end;
 }
 .main-container .benifits-section li {
  list-style: none;
@@ -296,7 +339,7 @@
   text-align: center;
 
 }
-.main-container .central-border {
+.central-border {
   display: flex;
   width: 7%;
   height: 5vh;
@@ -308,4 +351,7 @@ footer {
   background-color: #303640;
   color: #ffffff;
   font-family: 'Gotham Pro Bold';
+}
+.full-height {
+  height: 100%;
 }

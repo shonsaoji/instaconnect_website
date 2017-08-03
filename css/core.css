@@ -19,6 +19,11 @@ body {
   padding: 4rem;
   background: #f6f6f6;
   height: calc(100vh - 70px);
+  width: 100%;
+  background-image: url('../img/background.png');
+  /*background-repeat: round; */
+  background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .content.second-section {
   background: #ffffff;
@@ -42,8 +47,8 @@ body {
   height: 100vh;
   background: #ffffff;
 }
-.content.seventh-section {
-  height: 100vh;
+.seventh-section {
+  height: 85vh;
   background-color: #ffffff;
   padding: 0 !important;
   margin: 0 !important;
@@ -87,8 +92,8 @@ a:hover .header-profile-image {
 .has-error .help-inline.error-text {
   display: inline;
 }
-.navbar {
-  background-color: #FFFFFF;
+header {
+    background: radial-gradient(#FFFFFF, #EAF7FD);
 }
 .navbar .nav-header-text {
   color: #32acdc;
