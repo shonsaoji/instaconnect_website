@@ -1,0 +1,88 @@
+html {
+  font-size: 14px;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.content {
+    margin-top: 0;
+    height: 100vh;
+    padding: 3rem;
+}
+.main-container {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.content.first {
+  margin-top: 0;
+  padding: 4rem;
+  height: calc(100vh - 70px);
+  width: 100%;
+}
+.content.second-section {
+  background: #ffffff;
+  height: 100vh;
+}
+.content.third-section {
+    margin-top: 0;
+    height: 100vh;
+    background: radial-gradient(#FFFFFF, #EAF7FD);
+    padding: 3rem;
+}
+.content.fourth-section {
+  height: 100vh;
+  background: #ffffff;
+}
+.content.fifth-section {
+  height: 100vh;
+}
+.content.sixth-section {
+  height: 100vh;
+}
+.seventh-section {
+  height: 85vh;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-image: url("../img/Benefits.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-img-background {
+  background-image: url('../img/Background top-02-copy.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.main-container .preview-section .message-box {
+  background-color: pink;
+  height: 50vh;
+  width: 85%;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 5px 20px #ccc;
+}
+.bottom-img-backgroud {
+  background: radial-gradient(#FFFFFF, #EAF7FD);
+}
+.vertical-centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.horizontal-centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer {
+  height: 10vh;
+  background-color: #303640;
+  color: #ffffff;
+  font-family: 'Gotham Pro Bold';
+}

@@ -141,6 +141,11 @@ p.small {
 
  
  /*Cards*/
+ .step-box {
+  width: 310px;
+  height: 331px;
+  border-radius: 5px;
+}
 .card-box {
   width: 25vw;
   height: 70vh;

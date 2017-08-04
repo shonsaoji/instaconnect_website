@@ -1,16 +1,42 @@
-.uppercase {
-  text-transform: uppercase;
-}
-.pull-right {
-  float: right;
-}
-.pull-left {
-  float: left;
-}
+
 .navbar {
-  /*background-color: #FFFFFF;*/
+  background-color: transparent;
   margin-bottom: 0;
 }
+
+.header-profile-image {
+  border-radius: 50%;
+  height: 28px;
+  margin-right: 5px;
+  opacity: 0.8;
+  width: 28px;
+}
+.open .header-profile-image,
+a:hover .header-profile-image {
+  opacity: 1;
+}
+
+.navbar-brand > img {
+  display: inline-block;
+  width: 3rem;
+  margin-right: 0.5rem;
+}
+.navbar-nav li a:hover {
+  cursor: pointer;
+  background-color: unset;
+  border-bottom: 3px solid #32AEDE;
+}
+.navbar-nav .active {
+  border-bottom: 3px solid #32AEDE;
+}
+.nav .open a {
+  border: none;
+}
+.nav .open a:hover,
+.nav .open a:focus {
+  border: none;
+}
+
 .navbar .container .navbar-centered {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -41,24 +67,21 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-.main-container {
-  overflow-x: hidden;
-  overflow-y: hidden;
 
-}
 .main-container .margin-5 {
   margin-top: 5%;
 }
-.main-container .full-height {
-  height: 100%;
+
+.main-container .margin-8 {
+  margin-top: 8%;
 }
 .main-container .first-section .request-img {
-  
-  width: 300px;
+  height: 70vh;
+  width: auto;
 }
 .main-container .main-heading-text {
     text-align: center;
-    margin-top: 7.5rem;
+    margin: 0;
 }
 .main-container .first-section .paragraph-text {
   margin-top: 3%;
@@ -76,18 +99,6 @@
 }
 .main-container .first-section .button-group {
   margin-top: 6%;
-}
-.main-container .howItWork-section .horizontal-centered-column {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 .main-container .howItWork-section .step-text {
   font-family: 'Gotham Pro Medium';
@@ -122,12 +133,6 @@
 }
 .main-container .howItWork-section .step-box-container .margin-right-2 {
   margin-right: 2%;
-}
-.main-container .howItWork-section .step-box-container .step-box {
-  width: 310px;
-  height: 331px;
-  border-radius: 5px;
-  
 }
 .main-container .howItWork-section .step-box-container .step-box:hover {
   width: 310px;
@@ -167,16 +172,6 @@
   color: #ffffff;
 
 }
-.main-container .preview-section .message-box {
-  background-color: pink;
-  /*height: 378px;*/
-  height: 50vh;
-  width: 85%;
-  /*width: 914px;*/
-  border-radius: 5px;
-  background-color: #FFFFFF;
-  box-shadow: 0 5px 20px #ccc;
-}
 .main-container .preview-section .message-box .qr-image-container {
   height: 74% !important;
   display: flex;
@@ -187,7 +182,7 @@
 }
 .main-container .preview-section .message-box .qr-image {
   height: 25vh;
-  margin-left: 2%;
+  margin-left: 8%;
 }
 .main-container .preview-section .message-box .row {
   height: 32.5%;
@@ -264,13 +259,12 @@
 
 }
 .main-container .requirement-section .qr-image {
-  height: 50px;
-  width: 70px;
-  margin-bottom: 5%;
+  height: 9vh;
+  width: auto;
 }
 .main-container .requirement-section .customers-img {
   height: 39vh;
-  width: 28vw;
+  width: 26vw;
   border-radius: 5px;
 }
 .main-container .requirement-section .img-overlay-left {
@@ -314,9 +308,6 @@
   display: flex;
   align-items: flex-start;
 }
-.main-container .benifits-section .no-padding {
-  padding: 0;
-}
 .main-container .benifits-section .benfit-list-text {
   font-family: 'OpenSans SemiBold';
   padding-bottom: 5%;
@@ -339,6 +330,10 @@
   text-align: center;
 
 }
+.main-container .benifits-section .lady-image {
+  height: 61vh;
+  width:auto;
+}
 .central-border {
   display: flex;
   width: 7%;
@@ -346,12 +341,21 @@
   margin: 0px auto;
   border-bottom: 2px solid #32acdc;
 }
-footer {
-  height: 10vh;
-  background-color: #303640;
-  color: #ffffff;
-  font-family: 'Gotham Pro Bold';
-}
 .full-height {
   height: 100%;
+}
+.full-width {
+  width: 100%;
+}
+.no-padding {
+  padding: 0;
+}
+.no-margin {
+  margin: 0;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
 }
