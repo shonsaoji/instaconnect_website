@@ -20,7 +20,7 @@ body {
   height: calc(100vh - 70px);
   width: 100%;
 }
-.content.second-section {
+.second-section {
   background: #ffffff;
   height: 100vh;
 }
@@ -33,6 +33,7 @@ body {
 .content.fourth-section {
   height: 100vh;
   background: #ffffff;
+  margin-bottom: 5%;
 }
 .content.fifth-section {
   height: 100vh;
@@ -59,7 +60,7 @@ body {
   width: 85%;
   border-radius: 5px;
   background-color: #FFFFFF;
-  box-shadow: 0 5px 20px #ccc;
+  box-shadow: 0 4px 20px rgba(0, 170, 255, 0.25);
 }
 .bottom-img-backgroud {
   background: radial-gradient(#FFFFFF, #EAF7FD);

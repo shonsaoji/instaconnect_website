@@ -100,6 +100,9 @@ a:hover .header-profile-image {
 .main-container .first-section .button-group {
   margin-top: 6%;
 }
+.main-container .howItWork-section {
+  height: 94vh;
+}
 .main-container .howItWork-section .step-text {
   font-family: 'Gotham Pro Medium';
   color: #32acdc;
@@ -139,7 +142,7 @@ a:hover .header-profile-image {
   height: 331px;
   border-radius: 5px;
   background-color: #FFFFFF;
-  box-shadow: 0 5px 20px #ccc;
+  box-shadow: 0 4px 20px rgba(0, 170, 255, 0.25);
   
 }
 .main-container .howItWork-section .step-box-container .step-box:hover .step-btn {
@@ -210,6 +213,9 @@ a:hover .header-profile-image {
 .main-container .preview-section .print-text {
   height: 15vh;
 }
+.main-container .useCases-section {
+  height: 100vh;
+}
 .main-container .useCases-section .case-box-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -241,8 +247,8 @@ a:hover .header-profile-image {
 }
 .main-container .useCases-section .case-box-container .case-btn {
     margin-top: 5%;
-    height: 45px;
-    width: 200px;
+    height: 7vh;
+    width: 19vw;
     border-radius: 5px;
     background: #ffffff;
     border: 1px solid;
@@ -250,8 +256,8 @@ a:hover .header-profile-image {
 }
 .main-container .useCases-section .case-box-container .case-btn:hover {
   margin-top: 5%;
-  height: 45px;
-  width: 200px;
+  height: 7vh;
+  width: 19vw;
   border-radius: 5px;
   border: 0;
   background-image: linear-gradient(#32acdc, #38dbff);
