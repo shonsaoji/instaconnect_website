@@ -33,7 +33,7 @@ body {
 .content.fourth-section {
   height: 100vh;
   background: #ffffff;
-  margin-bottom: 5%;
+  margin-bottom: 1.5%;
 }
 .content.fifth-section {
   height: 100vh;
@@ -57,7 +57,7 @@ body {
 .main-container .preview-section .message-box {
   background-color: pink;
   height: 50vh;
-  width: 85%;
+  width: 82%;
   border-radius: 5px;
   background-color: #FFFFFF;
   box-shadow: 0 4px 20px rgba(0, 170, 255, 0.25);

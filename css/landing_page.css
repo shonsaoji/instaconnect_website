@@ -47,8 +47,12 @@ a:hover .header-profile-image {
 }
 .navbar-header .navbar-brand {
   width: 20vw;
-  color: #32acdc;
   padding: 6px;
+}
+.navbar-header .navbar-brand label {
+  background: linear-gradient(-90deg, #38dbff, #32acdc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .navbar .container .nav-header-text {
   color: #32acdc;
@@ -137,19 +141,11 @@ a:hover .header-profile-image {
 .main-container .howItWork-section .step-box-container .margin-right-2 {
   margin-right: 2%;
 }
-.main-container .howItWork-section .step-box-container .step-box:hover {
-  width: 310px;
-  height: 331px;
-  border-radius: 5px;
-  background-color: #FFFFFF;
-  box-shadow: 0 4px 20px rgba(0, 170, 255, 0.25);
-  
-}
 .main-container .howItWork-section .step-box-container .step-box:hover .step-btn {
    display: block;
   }
 .main-container .howItWork-section .step-box-container .step-box .step-image {
-  height: 5vh;
+  height: 7vh;
 }
 .main-container .howItWork-section .step-box-container .step-box .row > p {
   font-size: 14px;
@@ -164,6 +160,11 @@ a:hover .header-profile-image {
   background: #32acdc;
   border: 0;
   color: #ffffff;
+}
+.menu-item-small{
+  font-family: 'OpenSans Semibold';
+  font-size: 14px;
+  line-height: 19px;
 }
 .main-container .howItWork-section .step-box-container .step-box .step-btn:hover {
   margin-top: 5%;
@@ -210,6 +211,18 @@ a:hover .header-profile-image {
   justify-content: center;
   align-items: baseline;
 }
+.main-container .preview-section .message-box .wheresMyDrink {
+  width:28%; 
+}
+.main-container .preview-section .message-box .wheresMyFood {
+  width:30%; 
+}
+.main-container .preview-section .message-box .checkPlease {
+  width: 22%;
+}
+.main-container .preview-section .message-box .letsChat {
+  width: 20%;
+}
 .main-container .preview-section .print-text {
   height: 15vh;
 }
@@ -223,11 +236,26 @@ a:hover .header-profile-image {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+          margin-top: 3%;
+}
+.main-container .useCases-section .heading-text {
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 1.5%;
+}
+.main-container .useCases-section .central-border-useCases {
+  display: flex;
+  width: 7%;
+  height: 1vh;
+  margin: 0px auto;
+  border-bottom: 2px solid #32acdc;
 }
 .main-container .useCases-section .case-box-container .case-image {
   border-radius: 5px;
   height: 32vh;
-  width: 25vw;
+  width: 24vw;
   background-size: cover;
   background-repeat: no-repeat;
 }
