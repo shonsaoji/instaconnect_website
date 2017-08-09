@@ -21,10 +21,14 @@ a:hover .header-profile-image {
   width: 3rem;
   margin-right: 0.5rem;
 }
+.navbar-nav li a {
+  border-bottom: 3px solid transparent;
+}
 .navbar-nav li a:hover {
   cursor: pointer;
   background-color: unset;
   border-bottom: 3px solid #32AEDE;
+  overflow:hidden;
 }
 .navbar-nav .active {
   border-bottom: 3px solid #32AEDE;
@@ -106,6 +110,9 @@ a:hover .header-profile-image {
 }
 .main-container .howItWork-section {
   height: 94vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .main-container .howItWork-section .step-text {
   font-family: 'Gotham Pro Medium';
@@ -163,7 +170,7 @@ a:hover .header-profile-image {
 }
 .menu-item-small{
   font-family: 'OpenSans Semibold';
-  font-size: 14px;
+  font-size: 13px;
   line-height: 19px;
 }
 .main-container .howItWork-section .step-box-container .step-box .step-btn:hover {
@@ -183,6 +190,7 @@ a:hover .header-profile-image {
 }
 .main-container .preview-section .message-box .app-link {
   height: 30% !important;
+  font-size: 13px;
 }
 .main-container .preview-section .message-box .qr-image {
   height: 25vh;
@@ -281,6 +289,8 @@ a:hover .header-profile-image {
     background: #ffffff;
     border: 1px solid;
     color: #32acdc;
+    font-family: 'OpenSans Regular';
+    font-size: 15px;
 }
 .main-container .useCases-section .case-box-container .case-btn:hover {
   margin-top: 5%;
@@ -291,6 +301,11 @@ a:hover .header-profile-image {
   background-image: linear-gradient(#32acdc, #38dbff);
   color: #ffffff;
 
+}
+.main-container .requirement-section .heading-text {
+  font-family: 'Gotham Pro Medium';
+  font-size: 32px;
+  line-height: 46px;
 }
 .main-container .requirement-section .qr-image {
   height: 9vh;
