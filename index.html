@@ -53,12 +53,12 @@
 			                    <ul class="nav navbar-nav navbar-centered navbar-content-right">
 			                    <li class="navbar-header-right">
 			                    	<span>
-				                      	<a class="page-scroll nav-header-text" href="">
+				                      	<a class="page-scroll nav-header-text" href="" ng-click="redirectToApp('code')">
 				                        	<button class="btn btn-white text-center">Enter InstaConnect Code</button>
 				                      	</a>
 									</span>			                    
 			                    </li>
-			                    <li class="navbar-header-right" ng-click="gotoLogin()">
+			                    <li class="navbar-header-right" ng-click="redirectToApp('login')">
 			                        <a ui-sref="authentication.signin" class="nav-header-text">Log In</a>
 			                    </li>
 			                    </ul>
@@ -89,10 +89,10 @@
 							Make them Happy. Use instaConnect.
 						</p>
 						<div class="button-group horizontal-centered">
-							<button class="btn btn-primary btn-text btn-blue">Enter or Scan InstaConnect Code
+							<button class="btn btn-primary btn-text btn-blue" ng-click="redirectToApp('code')">Enter or Scan InstaConnect Code
 							<i class="fa fa-chevron-right icon-right" aria-hidden="true"></i>
 							</button>
-							<button class="btn btn-success btn-text btn-green">Sign up for free
+							<button class="btn btn-success btn-text btn-green" ng-click="redirectToApp('signUp')">Sign up for free
 								<i class="fa fa-chevron-right icon-right" aria-hidden="true"></i>
 							</button>
 						</div>
