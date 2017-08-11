@@ -37,6 +37,9 @@ a:hover .header-profile-image {
     display: flex;
     justify-content: center;
 }
+.navbar-nav li a {
+  border-bottom: 3px solid transparent;
+}
 .navbar-nav li a:hover {
   cursor: pointer;
   background-color: unset;
@@ -55,9 +58,6 @@ a:hover .header-profile-image {
     overflow:hidden;
   }
 }
-/*.navbar-nav .active {
-  border-bottom: 3px solid #32AEDE;
-}*/
 .nav .open a {
   border: none;
 }
@@ -425,4 +425,7 @@ a:hover .header-profile-image {
 }
 .pull-left {
   float: left;
+}
+.cursor-pointer {
+  cursor: pointer;
 }

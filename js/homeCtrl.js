@@ -6,19 +6,16 @@ app.controller('homeController', function($scope, $log) {
 	$scope.iosDevice = false;
 	$scope.desktopDevice = false;
 
-	// baseUrl = 'http://192.168.2.12:3000/';
 	$scope.checkDeviceType = function () {
 		var isAndroid = /Android/i.test(navigator.userAgent);
         var isIos = /iPad|iPhone|iPod/i.test(navigator.userAgent);
 
         if(isAndroid) {
         	$scope.androidDevice = true;
-        	// $()
         } else if(isIos) {
         	$scope.iosDevice = true;
         } else {
         	$scope.desktopDevice = true;
-        	console.log('this is the Desktop');
         }
 
    	}
