@@ -21,8 +21,21 @@ a:hover .header-profile-image {
   width: 3rem;
   margin-right: 0.5rem;
 }
-.navbar-nav li a {
-  border-bottom: 3px solid transparent;
+.navbar-default {
+  background: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar .navbar-header {
+    width: 30%;
+    display: flex;
+    justify-content: center;
 }
 .navbar-nav li a:hover {
   cursor: pointer;
@@ -30,9 +43,21 @@ a:hover .header-profile-image {
   border-bottom: 3px solid #32AEDE;
   overflow:hidden;
 }
-.navbar-nav .active {
-  border-bottom: 3px solid #32AEDE;
+@media only screen and (max-width: 500px) {
+  .navbar .navbar-header {
+    width: 100%;
+    display: block;
+  }
+  .navbar-nav li a:hover {
+    cursor: pointer;
+    background-color: unset;
+    border-bottom: 3px solid transparent;
+    overflow:hidden;
+  }
 }
+/*.navbar-nav .active {
+  border-bottom: 3px solid #32AEDE;
+}*/
 .nav .open a {
   border: none;
 }
@@ -50,8 +75,14 @@ a:hover .header-profile-image {
           align-items: center;
 }
 .navbar-header .navbar-brand {
-  width: 20vw;
   padding: 6px;
+}
+.enterCodespan {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.dummy-div {
+  width: 3.5rem;
 }
 .navbar-header .navbar-brand label {
   background: linear-gradient(-90deg, #38dbff, #32acdc);
@@ -61,19 +92,6 @@ a:hover .header-profile-image {
 .navbar .container .nav-header-text {
   color: #32acdc;
   font-family: 'OpenSans SemiBold';
-}
-.navbar .container .navbar-content-right {
-  width: 34vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 .main-container .margin-5 {
