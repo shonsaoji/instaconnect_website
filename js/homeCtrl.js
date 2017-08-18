@@ -1,7 +1,7 @@
 var app = angular.module('instaConnect', []);
 app.controller('homeController', function($scope, $log) {
 	var $ = angular.element
-	baseUrl = 'https://growth-web.herokuapp.com/';
+	baseUrl = 'https://instaconnect-restaurant.herokuapp.com/';
 	$scope.androidDevice = false;
 	$scope.iosDevice = false;
 	$scope.desktopDevice = false;
