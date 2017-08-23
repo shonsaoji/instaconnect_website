@@ -57,6 +57,22 @@ a:hover .header-profile-image {
     border-bottom: 3px solid transparent;
     overflow:hidden;
   }
+  .main-container .benifits-section .benfit-list-text {
+    width:100%;
+  }
+  .main-container .howItWork-section .step-box-main-container {
+    overflow-y: visible;
+    overflow-x: hidden;
+    padding: 0.6%;
+  }
+  .main-container .howItWork-section .step-box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
 }
 .nav .open a {
   border: none;
@@ -181,6 +197,8 @@ a:hover .header-profile-image {
   margin-top: 5%;
   height: 45px;
   width: 165px;
+  /* height: 6.6vh;
+  width: 15.3vw; */
   border-radius: 5px;
   background: #32acdc;
   border: 0;
@@ -370,6 +388,8 @@ a:hover .header-profile-image {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: flex-start;
+  width: 100%;
+  padding: 0.7rem;        
 }
 .main-container .benifits-section .benifits-list-container {
   display: flex;
@@ -381,7 +401,6 @@ a:hover .header-profile-image {
   color: #4c5666;
   font-size: 16px;
   line-height: 20px;
-  width: 40vw;
   display: flex;
   align-items: flex-end;
 }
