@@ -46,7 +46,17 @@ a:hover .header-profile-image {
   border-bottom: 3px solid #32AEDE;
   overflow:hidden;
 }
-@media only screen and (max-width: 500px,768px) {
+@media (min-width: 768px) {
+  /* .main-container .down-direction-arrow {
+    margin-top: 30%;
+  }
+  .main-container .howItWork-section .step-box-container .step-box {
+    width: auto;
+    height: 291px;
+    margin-left: 2%;
+  } */
+}
+@media only screen and (max-width: 500px) {
   .navbar .navbar-header {
     width: 100%;
     display: block;
@@ -56,6 +66,33 @@ a:hover .header-profile-image {
     background-color: unset;
     border-bottom: 3px solid transparent;
     overflow:hidden;
+  }
+  /* fonts */
+  h1 {
+    font-size: 2.2rem !important;
+    line-height: 3rem !important;
+  }
+  p.big {
+    font-size: 1.2rem !important;
+  }
+  .main-container .first-section .button-group .btn-text {
+    font-size: 0.8rem !important;
+  }
+  /* First section */
+  .main-container .first-section .button-group {
+    display: block !important;
+  }
+  .btn-blue {
+    margin-right: 0 !important;
+    width: inherit !important;
+  }
+  .btn-green {
+    margin-left: 0 !important;
+    margin-top: 5%;
+    width: inherit !important;
+  }
+  .main-container .down-direction-arrow {
+    margin-top: 5%;
   }
   /* second section */
   .howItWork-section-container {
@@ -89,21 +126,19 @@ a:hover .header-profile-image {
   .main-container .howItWork-section .step-box-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 7%;
   }
   .main-container .howItWork-section .step-box-container .step-box {
     width: auto;
     height: 291px;
     border-radius: 0px;
-    margin-left: 2%;
   }
   .main-container .howItWork-section .step-box-container .step-box:hover {
-    width: auto;
+    width: auto !important;
     height: 291px;
     border-radius: 0px;
     background-color: #FFFFFF;
     box-shadow: none;  
-    margin-left: 6%;
     margin-top: 1%;
   }
   /* second section ends here */
@@ -152,9 +187,27 @@ a:hover .header-profile-image {
 
   /* fifth section */
   .main-container .requirement-section .customers-img {
-    height: 11rem !important;
-    width: 12.2rem !important;
+    /* height: 11rem !important;
+    width: 12.2rem !important; */
+    height: 7rem !important;
+    width: 10.2rem !important;
   }
+  .main-container .requirement-section .qr-image {
+    height: 6vh !important;
+    width: auto;
+  }
+  .main-container .requirement-section .chat-image {
+    height: 6vh !important;
+    width: auto;
+  }
+  /* .main-container .requirement-section .subheading-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .main-container .requirement-section .subheading {
+    align-self: center;
+    margin-left: 10%;
+  } */
   /* Last section */
   .main-container .benifits-section .benfit-list-text {
     width:100%;
