@@ -82,6 +82,9 @@ a:hover .header-profile-image {
   p.big {
     font-size: 1.2rem !important;
   }
+  p.normal {
+    line-height: 20px !important;
+  }
   .main-container .first-section .button-group .btn-text {
     font-size: 0.8rem !important;
   }
