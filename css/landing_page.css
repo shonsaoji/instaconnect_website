@@ -57,6 +57,13 @@ a:hover .header-profile-image {
   } */
 }
 @media only screen and (max-width: 500px) {
+  .auto-height {
+    height: auto !important;
+  }
+  .main-container {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
   .navbar .navbar-header {
     width: 100%;
     display: block;
