@@ -62,7 +62,7 @@ a:hover .header-profile-image {
   }
   .main-container {
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
   .navbar .navbar-header {
     width: 100%;
