@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="css/layout.css">
 	<link rel="stylesheet" href="css/landing_page.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
 </head>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
@@ -98,13 +99,21 @@
 								</p>
 							</div>
 						</div>
-						<div class="row button-group horizontal-centered">
-							<div class="col-sm-12 col-xs-12">
+						<div class="row button-group horizontal-centered hidden-xs">
+							<button class="btn btn-primary btn-text btn-blue" ng-click="redirectToApp('code')">Enter or Scan InstaConnect Code
+								<i class="fa fa-chevron-right icon-right" aria-hidden="true"></i>
+							</button>
+							<button class="btn btn-success btn-text btn-green" ng-click="redirectToApp('signUp')">Sign up for free
+								<i class="fa fa-chevron-right icon-right" aria-hidden="true"></i>
+							</button>	
+						</div>
+						<div class="row button-group visible-xs">
+							<div class="col-sm-6 col-xs-12">
 								<button class="btn btn-primary btn-text btn-blue" ng-click="redirectToApp('code')">Enter or Scan InstaConnect Code
 									<i class="fa fa-chevron-right icon-right" aria-hidden="true"></i>
 								</button>
 							</div>
-							<div class="col-sm-12 col-xs-12">
+							<div class="col-sm-6 col-xs-12">
 								<button class="btn btn-success btn-text btn-green" ng-click="redirectToApp('signUp')">Sign up for free
 									<i class="fa fa-chevron-right icon-right" aria-hidden="true"></i>
 								</button>	
@@ -513,7 +522,7 @@
 			</div>
 		</section>
 
-		<section class='seventh-section vertical-centered' id="benefits">
+		<section class='auto-height seventh-section vertical-centered' id="benefits">
 			<div class="main-container container full-width no-margin">
 				<div class="row no-padding">
 					<div class="col-md-12 no-padding margin-8">

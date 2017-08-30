@@ -44,6 +44,9 @@
     .auto-height {
       height: auto !important;
     }
+    .margin-left-2 {
+      margin-left: 0px;
+    }
     .main-container {
       overflow-x: hidden;
       overflow-y: auto;
@@ -51,6 +54,7 @@
     .navbar .navbar-header {
       width: 100%;
       display: block;
+      margin-left: 5px;
     }
     .navbar-nav li a:hover {
       cursor: pointer;
@@ -74,7 +78,8 @@
     }
     /* First section */
     .main-container .first-section .button-group {
-      display: block !important;
+      display: block;
+      margin-top: 6%;
     }
     .btn-blue {
       margin-right: 0 !important;
@@ -127,12 +132,16 @@
       height: 291px;
       border-radius: 0px;
     }
+    /* .main-container .howItWork-section .step-box-container .step-box .step-btn {
+      height: 39px;
+      width: 158px;
+      margin-top: 0%;
+    } */
     .main-container .howItWork-section .step-box-container .step-box:hover {
-      width: auto !important;
+      width: auto;
       height: 291px;
-      border-radius: 0px;
+      border-radius: 5px;
       background-color: #FFFFFF;
-      box-shadow: none;  
       margin-top: 1%;
     }
     /* second section ends here */
